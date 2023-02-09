@@ -1,0 +1,202 @@
+/***
+Body
+le body est principal pour centrer tout le contenu
+***/
+
+
+body {
+    text-align: center;
+    margin:0;
+}
+
+
+
+/***top container***/
+.top-container {background-color: #eaf6f6;
+    padding : 250px;
+    position: relative;
+}
+/***top-image***/
+/***
+.top-cloud1{
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 16%;
+}
+.top-cloud2{
+    position : absolute;
+    left:100px;
+    top:50px;
+    width: 16%;
+}
+***/
+
+.river {
+    position:absolute; 
+    right:75%;
+    width:25%;
+    bottom:0;
+
+  
+
+
+}
+
+.mountain-bottom{
+    position:relative;
+    width:90%;
+    text-align: center ;
+
+}
+
+.choice {
+    position:absolute; 
+    right:80%;
+    width:10%;
+    bottom:0;
+}
+/*** writing***/
+h1{
+    font-family: "sacramento", cursive;
+    font-size: 3.5rem;
+    color:#66bfbf;
+    margin-top:0;
+    margin: 50px 0px auto 0;
+    
+}
+h2{ 
+   color:#66bfbf;
+   font-family: "Montserrat", sans-serif;
+   font-size: 2rem;
+   margin-bottom: 0;
+   padding: 30px;
+   bottom:100px;
+   
+}
+
+.comp-font{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.p-comp{
+    font-size: 1rem;
+}
+
+
+.dévelo{
+    text-decoration: underline;
+}
+
+.expe{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.formation {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.bonjour{
+    font-family: "sacramento",cursive;
+}
+/***middle-container***/
+.middle-container {
+    padding:7rem 30rem;
+    position: relative;
+    
+}
+    
+
+
+/***middle image***/
+.profil{margin-bottom:300px 100px
+
+}
+
+hr{
+    border:dotted #eaf6f6 6px;
+    width:15%;
+    border-bottom: none;
+    margin-top:10px;
+    left:20px;
+    
+    
+}
+/***compétences***/
+.Compétences{
+    text-align: left;
+    margin: 10px auto 100px auto;
+    width:70%;
+    
+
+
+}
+.comp{
+    width:20%;
+    margin-bottom:60px;
+    float:left;
+}
+.comp-content{
+    text-align: left;
+    margin-top:100px auto 60px;
+}
+/***expériences***/
+
+.expérience-professionnelle{
+    margin-top:90px;
+}
+.exp-img{
+    width:20%;
+    float:right;
+    
+}
+.Année{
+    color:#66bfbf
+}
+/****formations***/ 
+.univ-img{width:15%;
+    float:left;
+    
+
+}
+    
+
+
+
+.diplo{
+    text-align: left;
+    margin-right:100px;
+}
+.formation{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+
+/***bottom-container***/
+.bottom-container {
+margin:200px 0 0;
+padding:100px 0 100px 0;
+background-color: #66bfbf;
+}
+
+
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #eaf6f6;
+  }
+
+  .copyright {
+    color: #eaf6f6;
+    font-size: 1rem;
+    padding: 20px 0;
+  }
